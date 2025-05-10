@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webcam Filters</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Webcam Filters</h1>
+    <div class="video-container">
+      <video id="video" autoplay playsinline></video>
+      <canvas id="overlay"></canvas>
+    </div>
+    <div class="filters-container">
+      <button id="normal" class="filter-btn">Normal</button>
+      <button id="grayscale" class="filter-btn">Black & White</button>
+      <button id="sepia" class="filter-btn">Sepia</button>
+      <button id="invert" class="filter-btn">Invert</button>
+      <button id="blur" class="filter-btn">Blur</button>
+      <button id="brightness" class="filter-btn">Brightness</button>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/face-api.js"></script>
+  <script src="main.js"></script>
+</body>
+</html> 
